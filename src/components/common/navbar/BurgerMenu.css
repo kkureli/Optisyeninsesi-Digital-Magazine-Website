@@ -1,0 +1,99 @@
+.burgerNavlinks:hover {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  text-decoration: none;
+}
+
+/* These classes are from the React package: https://github.com/negomi/react-burger-menu */
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 28px;
+  height: 28px;
+  left: 16px;
+  top: 10px;
+}
+
+@media (min-width: 768px) {
+  .bm-burger-button {
+    display: none !important;
+  }
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  right: 130px !important;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+    Sidebar wrapper styles
+    Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+    */
+.bm-menu-wrap {
+  top: 0;
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  width: 170px;
+  background: rgb(33, 33, 33);
+  padding: 3.5em 1.5em 0;
+  padding-left: 24px;
+  font-size: 1em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+  padding-left: 0;
+  width: 100%;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  padding: 8px;
+  padding-left: 0;
+  color: white;
+}
+
+.bm-item:focus {
+  outline: none;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#burgerLogo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

@@ -1,0 +1,16 @@
+.navbar {
+  height: 65px;
+  width: 100%;
+  padding: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  .burgerMenu {
+    display: none !important;
+  }
+}

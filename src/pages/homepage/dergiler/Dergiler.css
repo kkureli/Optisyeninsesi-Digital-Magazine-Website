@@ -1,0 +1,10 @@
+.dergiler {
+  margin-top: 20px;
+  margin-bottom: 250px;
+}
+
+@media (max-width: 768px) {
+  .dergiler {
+    margin-left: 55px;
+  }
+}

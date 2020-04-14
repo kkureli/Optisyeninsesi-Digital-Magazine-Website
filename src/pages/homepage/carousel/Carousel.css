@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+  .carousel {
+    height: 150% !important;
+
+    position: absolute;
+    top: 0px;
+  }
+  .carousel-caption {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+
+/* 
+.carousel {
+  position: absolute;
+  top: 0;
+} */
