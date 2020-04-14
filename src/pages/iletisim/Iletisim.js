@@ -127,7 +127,7 @@ const Iletisim = () => {
           </ModalBody>
           <Modal.Footer>
             <Button variant="danger" onClick={handleClose}>
-              Close
+              Kapat
             </Button>
           </Modal.Footer>
         </Modal>{" "}
